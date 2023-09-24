@@ -1,0 +1,130 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: white;
+}
+
+
+.logo{
+    width: 220px;
+    height: 60px;
+    padding: 10px;
+}
+
+header {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    /* margin-left: 900px; */
+    padding-left: 67%;
+}
+
+.nav-link {
+    text-decoration: unset;
+    color: black;
+    margin: 0 30px;
+    font-family: Inter;
+    font-style: Regular;
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+    transition: 0.5s;
+    color: white;
+}
+
+main{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.judul {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.desk {
+    text-align: center;
+    width: 35%;
+    padding-left: 32%;
+    padding-bottom: 7%;
+}
+
+.box-contact {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer {
+    margin-top: 13%;
+    background-color: black;
+    color: white;
+    height: auto;
+}
+
+.nama-univ {
+    text-align: center;
+    padding: 20px;
+    font-family: inter;
+    font-style: regular;
+    font-size: 20px;
+}
+
+.alamat {
+    margin-top: 20px;
+    padding-left: 45%;
+    font-family: inter;
+    font-style: regular;
+    font-size: 15px;
+}
+
+.nama-alamat {
+    width: 30%;
+}
+
+.logo-gps {
+    margin-left: -60px;
+    margin-right: 30px;
+    width: 30px;
+    height: auto;
+
+}
+
+.telpon {
+    padding-left: 45%;
+    font-family: inter;
+    font-style: regular;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+
+.logo-phone {
+    margin-left: -60px;
+    margin-right: 30px;
+    width: 30px;
+    height: auto;
+}
+
+.copy {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    font-family: inter;
+    font-style: regular;
+    font-size: 10px;
+}
